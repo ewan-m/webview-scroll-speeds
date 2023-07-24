@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		406341E42A3B2AF50013F464 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406341E32A3B2AF50013F464 /* TestApp.swift */; };
-		406341E62A3B2AF50013F464 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406341E52A3B2AF50013F464 /* ContentView.swift */; };
 		406341E82A3B2AF60013F464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406341E72A3B2AF60013F464 /* Assets.xcassets */; };
 		406341EB2A3B2AF60013F464 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406341EA2A3B2AF60013F464 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +15,6 @@
 /* Begin PBXFileReference section */
 		406341E02A3B2AF50013F464 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406341E32A3B2AF50013F464 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
-		406341E52A3B2AF50013F464 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		406341E72A3B2AF60013F464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406341EA2A3B2AF60013F464 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				406341E32A3B2AF50013F464 /* TestApp.swift */,
-				406341E52A3B2AF50013F464 /* ContentView.swift */,
 				406341E72A3B2AF60013F464 /* Assets.xcassets */,
 				406341E92A3B2AF60013F464 /* Preview Content */,
 			);
@@ -137,7 +134,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				406341E62A3B2AF50013F464 /* ContentView.swift in Sources */,
 				406341E42A3B2AF50013F464 /* TestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
