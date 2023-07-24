@@ -1,17 +1,12 @@
 import * as React from "react";
 import { WebView } from "react-native-webview";
-import { StyleSheet } from "react-native";
-import Constants from "expo-constants";
+import { Text, SafeAreaView } from "react-native";
 
 export default function App() {
   return (
-    <WebView style={styles.container} source={{ uri: "https://expo.dev" }} />
+    <SafeAreaView style={{ flex: 1 }}>
+      <WebView style={{ flex: 1 }} source={{ uri: "https://expo.dev" }} />
+      <Text style={{ padding: 16 }}>Deceleration rate = unset</Text>
+    </SafeAreaView>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    marginTop: Constants.statusBarHeight,
-  },
-});
